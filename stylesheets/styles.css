@@ -1,0 +1,72 @@
+body {
+  font-family: "Quicksand";
+}
+
+h1 {
+  text-align: center;
+  font-family: "Archivo Black";
+  font-size: 3rem;
+}
+
+h1 span {
+  font-weight: 100;
+  font-family: "Quicksand";
+}
+
+ul li {
+  list-style: none;
+  padding: 0 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: goldenrod;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+.home-container {
+  padding: 4rem 4rem;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+header {
+  padding: 2rem 3rem;
+}
+
+header ul {
+  margin-left: 0;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  text-align: center;
+}
+
+main ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+main img {
+  height: 300px;
+  padding: .5rem;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 1rem;
+}
+
+.contact {
+  display: flex;
+  margin: 0;
+  justify-content: flex-end;
+}
