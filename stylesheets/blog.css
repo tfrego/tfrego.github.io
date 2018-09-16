@@ -9,7 +9,7 @@ nav ul {
   justify-content: flex-end;
 }
 
-main {
+.main-content {
   display: grid;
   grid-template-columns: 1fr 3fr;
   line-height: 1.75rem;

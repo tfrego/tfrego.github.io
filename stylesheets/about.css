@@ -10,14 +10,14 @@ nav ul {
   justify-content: flex-end;
 }
 
-main ul {
+.main-content ul {
   display: grid;
   grid-template-columns: 1fr 2fr;
   text-align: justify;
   line-height: 1.75rem;
 }
 
-main img {
+.main-content img {
   border-radius: 50%;
   height: 300px;
 }

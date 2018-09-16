@@ -9,18 +9,21 @@ nav ul {
   justify-content: flex-end;
 }
 
-main {
+.main-content {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   text-align: left;
 }
 
-main > section {
+.main-content > section {
   border-bottom: solid thin lightgray;
   padding: 2rem 4rem;
   line-height: 1.75rem;
 }
 
+.main-content > section > section {
+  padding: 0 2rem;
+}
 .button {
   display: grid;
   grid-template-columns: 120px 1fr 1fr;
@@ -32,7 +35,7 @@ main > section {
   background-color: goldenrod;
   color: white;
   border-radius: 10px;
-  padding: .5rem
+  padding: .25rem
 }
 
 #hotel {
