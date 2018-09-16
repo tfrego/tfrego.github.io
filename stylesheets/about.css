@@ -16,6 +16,7 @@ main ul {
   display: grid;
   grid-template-columns: 1fr 2fr;
   text-align: justify;
+  line-height: 1.75rem;
 }
 
 main img {
