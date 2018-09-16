@@ -1,0 +1,39 @@
+header {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  line-height: 1.75rem;
+}
+
+.post-links ul {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.posts {
+  text-align: left;
+
+}
+
+.posts section {
+  border-bottom: solid thin lightgray;
+}
+
+.posts img {
+  padding: 0;
+}
+
+h5 {
+  margin: 0 0;
+}

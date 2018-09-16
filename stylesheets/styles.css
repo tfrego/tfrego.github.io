@@ -61,7 +61,7 @@ main img {
 footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 0 1rem;
+  padding: .5rem 1rem;
 }
 
 footer div {
