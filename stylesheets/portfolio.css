@@ -24,6 +24,7 @@ nav ul {
 .main-content > section > section {
   padding: 0 2rem;
 }
+
 .button {
   display: grid;
   grid-template-columns: 120px 1fr 1fr;
