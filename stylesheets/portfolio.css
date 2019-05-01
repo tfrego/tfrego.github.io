@@ -38,6 +38,26 @@ nav ul {
   padding: .25rem
 }
 
+#giftawish {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+#inspoboard {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+#bakesy {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+#muncher {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
 #hotel {
   display: grid;
   grid-template-columns: 1fr 2fr;
