@@ -11,7 +11,7 @@ nav ul {
 
 .main-content {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   text-align: left;
 }
 
