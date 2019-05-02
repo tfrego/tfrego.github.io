@@ -44,9 +44,17 @@ nav ul {
   grid-template-columns: 1fr 2fr;
 }
 
+#giftawish img {
+  border-radius: 30px;
+}
+
 #inspoboard {
   display: grid;
   grid-template-columns: 2fr 1fr;
+}
+
+#inspoboard img {
+  border-radius: 30px;
 }
 
 #bakesy {
@@ -54,9 +62,17 @@ nav ul {
   grid-template-columns: 1fr 2fr;
 }
 
+#bakesy img {
+  border-radius: 50%;
+}
+
 #muncher {
   display: grid;
   grid-template-columns: 2fr 1fr;
+}
+
+#muncher img {
+  border-radius: 30px;
 }
 
 #hotel {
